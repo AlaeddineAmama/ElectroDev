@@ -1,0 +1,163 @@
+* {
+ margin: 0;
+}
+
+a:link {
+	color: #d18f11;
+	text-decoration: none;
+	border-bottom:1px dotted #b88826;
+}
+a:visited {
+	text-decoration: none;
+	color: #d18f11;
+	border-bottom:1px dotted #b88826;
+}
+a:hover {
+	text-decoration: none;
+	color: #f6ba3d;
+	border:0;
+	
+}
+a:active {
+	text-decoration: none;
+	color: #f6ba3d;
+	border-bottom:1px dotted #b88826;
+}
+
+a:active { outline: none; }
+a:focus { outline: none; }
+
+body, html{
+	height: 100%;
+	width:100%;
+	padding: 0;
+    margin: 0;
+	display:block;
+	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	font-size: 13px;
+	color: #e1bd9e;
+	overflow:hidden;
+
+}
+
+.main_profile{
+	background-image:url(../images/profile/bg.png);
+	background-repeat:no-repeat; 
+	background-position:top center; 
+	width:819px; 
+	height:621px;
+	position:relative; 
+	margin:0 auto;
+
+}
+
+h2{
+	font-size:18px;
+	color:#acce37;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:10px;
+
+}
+
+h3{
+	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight:normal;
+}
+
+.h1_text{
+	position:absolute; 
+	top:0px; 
+	left:0px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+.content {
+	position:absolute;
+	top:80px;
+	left:270px;
+	width:460px;
+	height:300px;
+
+
+}
+
+.ifword{
+	display:none;
+	
+}
+
+.content_text{
+	margin-left:15px;
+	margin-bottom:12px;
+}
+
+.services_list{
+	list-style-image:url(../images/profile/marker.png);
+	padding-left:40px;
+	
+}
+
+.social{
+	
+	position:absolute;
+	top:290px;
+	left:64px;
+	width:170px;
+	height:170px;
+		
+}
+
+.social_list{
+	list-style:none;
+	line-height:20px;
+	padding-left:0px;
+
+	
+}
+
+.flickr{
+	background-image:url(../images/profile/flickr.png);
+	background-repeat:no-repeat; 
+	background-position:0px 2px;
+	padding-left:26px;
+	
+}
+
+.deviantart{
+	background-image:url(../images/profile/deviantart.png);
+	background-repeat:no-repeat; 
+	background-position:0px 2px;
+	padding-left:26px;
+	
+}
+
+.behance{
+	background-image:url(../images/profile/behance.png);
+	background-repeat:no-repeat; 
+	background-position:0px 2px;
+	padding-left:26px;
+	
+}
+
+.revision{
+	background-image:url(../images/profile/revision.png);
+	background-repeat:no-repeat; 
+	background-position:0px 2px;
+	padding-left:26px;
+	
+}
+
+
+.twitter{
+	background-image:url(../images/profile/twitter.png);
+	background-repeat:no-repeat; 
+	background-position:0px 2px;
+	padding-left:26px;
+	
+}
+
+
